@@ -18,6 +18,7 @@ public class ExempluMetoda {
 		System.out.println("Arie camera2 : " + arieRoom2);
 
 	}
+
 	
 	public int calculArie(int lungime, int latime) {
 		int arie = lungime * latime;
@@ -29,5 +30,5 @@ public class ExempluMetoda {
 		int perimetru = 2 * (lungime + latime);
 		System.out.println(perimetru);
 	}
-
+	
 }
