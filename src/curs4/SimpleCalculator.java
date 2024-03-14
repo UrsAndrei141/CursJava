@@ -37,18 +37,22 @@ public class SimpleCalculator {
 			result = nr1 + nr2;
 			System.out.println(nr1 + " " + operator + " " + nr2 + " = " + result);
 			counter++;
+			printResult();
 		}else if (operator == '-') {
 			result = nr1 - nr2;
 			System.out.println(nr1 + " " + operator + " " + nr2 + " = " + result);
 			counter++;
+			printResult();
 		}else if(operator == '*' || operator == 'x') {
 			result = nr1 * nr2;
 			System.out.println(nr1 + " " + operator + " " + nr2 + " = " + result);
 			counter++;
+			printResult();
 		}else if(operator == '/' || operator == ':') {
 			result = nr1 / nr2;
 			System.out.println(nr1 + " " + operator + " " + nr2 + " = " + result);
 			counter++;
+			printResult();
 		}else {
 			System.out.println("Unknown operator");
 		}
