@@ -31,11 +31,11 @@ public void checkUserAge() {
 		
 		askTheUserForTheAge();
 		
-		if(age < 18 ) {
+		if(age > 0 && age < 18 ) {
 			System.out.println("Esti minor.");
 		}else if(age >= 18 && age <= 65 ){
 			System.out.println("Esti adult.");
-		}else {
+		}else if(age > 65) {
 			System.out.println("Esti batran.");
 		}
 			
