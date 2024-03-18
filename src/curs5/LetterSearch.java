@@ -39,7 +39,7 @@ public class LetterSearch {
 			}
 			
 			//System.out.println(text.charAt(i));
-		if(counter >0) {
+		if(counter > 0) {
 			System.out.println("Litera A exista in text de " + counter + " ori");
 		}else {
 			System.out.println("Litera A nu exista in text");
