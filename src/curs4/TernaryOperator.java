@@ -18,7 +18,7 @@ public class TernaryOperator {
 		
 		String print = (num1>num2) ? "Num1 este mai mare" :"Num 2 este mai mare";
 		System.out.println();
-		System.out.println((num1>num2)) ? "Num1 este mai mare" :"Num 2 este mai mare";
+		System.out.println(num1>num2 ? "Num1 este mai mare" :"Num 2 este mai mare");
 
 	}
 
