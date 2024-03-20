@@ -12,7 +12,7 @@ public static void main(String[] args) {
         scanner.close();
 
    
-        String calificativ = (punctaj >= 90) ? "FB" : (punctaj >= 80) ? "B" : "Suficient";
+        String calificativ = (punctaj > 100) ? "Introdu un punctaj valid" : (punctaj >= 90) ? "FB" : (punctaj >= 80) ? "B" : "Suficient";
 
         System.out.println("Calificativul obtinut este: " + calificativ);
     }
