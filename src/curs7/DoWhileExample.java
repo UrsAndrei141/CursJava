@@ -21,10 +21,15 @@ public class DoWhileExample {
 			System.out.println("Introdu un username:");
 			username = scan.next();
 			
-			
-			
-			
 		}
+		
+		System.out.println("------------------------");
+		String username2;
+		
+		do {
+			System.out.println("Introdu un username:");
+			username2 = scan.next();
+		}while(username2.equals(null) || username2.length()<6);
 	}
 
 }
