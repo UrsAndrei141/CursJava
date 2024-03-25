@@ -20,8 +20,8 @@ public class RetragereATM {
 		System.out.println("Ce suma vrei sa retragi?");
 		int suma = scan.nextInt();
 		
-		while (suma > sold) {
-			System.out.println("Fonduri insuficiente");
+		while (suma > sold || suma <= 0) {
+			System.out.println("Suma invalida!");
 			System.out.println("Ce suma vrei sa retragi?");
 			suma = scan.nextInt();
 		}

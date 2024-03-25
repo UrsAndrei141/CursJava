@@ -16,6 +16,7 @@ public class DoWhileExample {
 		System.out.println("-------------------------------------------");
 		
 		int j = 0;
+		
 		do {
 			
 			 System.out.println(array[j]);
