@@ -40,7 +40,7 @@ public class SetExample {
 		System.out.println(set);
 		
 		set.clear();
-		System.out.println(set);
+		System.out.println(set); 
 		
 
 	}
